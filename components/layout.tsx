@@ -11,7 +11,7 @@ import Head from "next/head";
 import ExternalLink from "./external-link";
 import InternalLink from "./internal-link";
 
-const siteDescription = "tiangolo (Sebastián Ramírez) personal website";
+const siteDescription = "tiangolo's (Sebastián Ramírez) boring personal website";
 
 export default function Layout({
   children,
@@ -29,14 +29,14 @@ export default function Layout({
         <meta name="og:title" content={siteDescription} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <div className="h-2 bg-green-500" />
+      <div className="h-2 bg-green-600" />
       <div className="text-lg px-7">
         <header>
           {home ? (
             <>
               <img
                 src="/images/profile.jpg"
-                className="rounded-full h-80 w-80 mx-auto my-20"
+                className="rounded-full max-h-80 mx-auto my-20"
                 alt="tiangolo (Sebastián Ramírez)"
               />
             </>
@@ -46,11 +46,11 @@ export default function Layout({
                 <div className="m-3 text-center lg:max-w-6xl mx-auto relative">
                   <img
                     src="/images/profile.jpg"
-                    className="rounded-full float-left h-24 w-24 sm:absolute sm:left-6"
+                    className="rounded-full float-left max-h-24 sm:absolute sm:left-6"
                     alt="tiangolo (Sebastián Ramírez)"
                   />
                   <h1 className="text-xl py-6">
-                    tiangolo's personal boring website
+                    tiangolo's boring personal website
                   </h1>
                 </div>
               </InternalLink>
