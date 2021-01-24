@@ -9,7 +9,7 @@ export default function InternalLink({
 }) {
   return (
     <Link href={href}>
-      <a className="text-green-500 hover:underline">{children}</a>
+      <a className="text-green-600 hover:underline">{children}</a>
     </Link>
   );
 }

@@ -6,7 +6,7 @@ export default function ExternalLink({
   children?: React.ReactNode;
 }) {
   return (
-    <a href={href} target="_blank" className="text-green-500 hover:underline">
+    <a href={href} target="_blank" rel="noopener" className="text-green-600 hover:underline">
       {children}
     </a>
   );
