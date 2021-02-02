@@ -1,17 +1,19 @@
 import {
-    faDev,
-    faGithub,
-    faLinkedin,
-    faMedium,
-    faTwitter
+  faDev,
+  faGithub,
+  faLinkedin,
+  faMedium,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import ExternalLink from "./external-link";
 import InternalLink from "./internal-link";
+import SocialLink from "./social-link";
 
-const siteDescription = "tiangolo's (Sebastián Ramírez) boring personal website";
+const siteDescription =
+  "tiangolo's (Sebastián Ramírez) boring personal website";
 
 export default function Layout({
   children,
@@ -60,25 +62,33 @@ export default function Layout({
         </header>
         <main className="lg:max-w-6xl mx-auto">{children}</main>
       </div>
-      <div className="text-center flex justify-center space-x-6 text-2xl mb-4">
-        <ExternalLink href="https://twitter.com/tiangolo">
-          <FontAwesomeIcon title="Twitter" icon={faTwitter}></FontAwesomeIcon>
-        </ExternalLink>
-        <ExternalLink href="https://github.com/tiangolo">
-          <FontAwesomeIcon title="GitHub" icon={faGithub}></FontAwesomeIcon>
-        </ExternalLink>
-        <ExternalLink href="mailto:tiangolo@gmail.com">
-          <FontAwesomeIcon title="Email" icon={faEnvelope}></FontAwesomeIcon>
-        </ExternalLink>
-        <ExternalLink href="https://linkedin.com/in/tiangolo">
-          <FontAwesomeIcon title="Email" icon={faLinkedin}></FontAwesomeIcon>
-        </ExternalLink>
-        <ExternalLink href="https://dev.to/tiangolo">
-          <FontAwesomeIcon title="Dev" icon={faDev}></FontAwesomeIcon>
-        </ExternalLink>
-        <ExternalLink href="https://tiangolo.medium.com/">
-          <FontAwesomeIcon title="Medium" icon={faMedium}></FontAwesomeIcon>
-        </ExternalLink>
+      <div className="text-center flex justify-center flex-wrap text-2xl m-4 mb-4">
+        <SocialLink
+          href="https://twitter.com/tiangolo"
+          title="Twitter"
+          icon={faTwitter}
+        />
+        <SocialLink
+          href="https://github.com/tiangolo"
+          title="GitHub"
+          icon={faGithub}
+        />
+        <SocialLink
+          href="mailto:tiangolo@gmail.com"
+          title="Email"
+          icon={faEnvelope}
+        />
+        <SocialLink
+          href="https://linkedin.com/in/tiangolo"
+          title="LinkedIn"
+          icon={faLinkedin}
+        />
+        <SocialLink href="https://dev.to/tiangolo" title="Dev" icon={faDev} />
+        <SocialLink
+          href="https://tiangolo.medium.com/"
+          title="Medium"
+          icon={faMedium}
+        />
       </div>
       <footer className="text-sm m-5 text-center">
         © All rights reserved. And all that stuff. 🤷
