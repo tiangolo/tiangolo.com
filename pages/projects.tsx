@@ -22,6 +22,12 @@ export default function Projects({ projects }: { projects: ProjectsData }) {
       </Head>
       <div>
         <h1 className="text-center text-2xl my-12">Open source projects</h1>
+        <div className="my-3 text-center">
+            If my open source projects are useful for your <strong>product/company</strong> you can also sponsor my work on them. ☕
+          </div>
+          <div className="my-5 text-center">
+            <iframe className="text-center inline-block" src="https://github.com/sponsors/tiangolo/button" title="Sponsor tiangolo" height="35" width="116" style={{border: 0}}></iframe>
+          </div>
         <ul>
           {projects.source.map((project: Project) => (
             <li key={project.name} className="my-10">

@@ -21,13 +21,11 @@ export default function Home() {
           </h1>
           <div className="my-3">I'm a software developer from Colombia. 🇨🇴</div>
           <div className="my-3">
-            I currently work at{" "}
-            <ExternalLink href="https://explosion.ai/">Explosion</ExternalLink>{" "}
-            in Berlin. 🇩🇪
+            I currently live in Berlin, Germany. 🇩🇪
           </div>
           <div className="my-3">
             I have been building APIs and tools for Machine Learning and data
-            systems, in Latin America, the Middle East, and now Europe. 🌎
+            systems, in Latin America, the Middle East, and now Europe, with different teams and organizations. 🌎
           </div>
           <div className="my-3">
             I created{" "}
@@ -50,6 +48,17 @@ export default function Home() {
           <div className="my-9 text-2xl">
             You are probably looking for my{" "}
             <InternalLink href="/projects/">open source projects</InternalLink>.
+          </div>
+          <div className="my-3">
+          </div>
+          <div className="my-3">
+            I'm currently dedicating a high percentage of my time to FastAPI, Typer, and my other open source projects. At the same time, I'm also helping a limited number of teams and organizations as an <strong>external consultant</strong>. If you would like to have my help with your team and product, feel free to <strong>contact me</strong>. 🤓
+          </div>
+          <div className="my-3">
+            If my open source projects are useful for your <strong>product/company</strong> you can also sponsor my work on them. ☕
+          </div>
+          <div className="my-3">
+            <iframe className="text-center inline-block" src="https://github.com/sponsors/tiangolo/button" title="Sponsor tiangolo" height="35" width="116" style={{border: 0}}></iframe>
           </div>
         </div>
       </Layout>
