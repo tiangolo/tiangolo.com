@@ -20,7 +20,7 @@ jobs:
       - name: Build Docs
         run: npm run build && npm run export
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.1.12
+        uses: nwtgck/actions-netlify@v2.1.0
         with:
           publish-dir: './out'
           production-branch: master
