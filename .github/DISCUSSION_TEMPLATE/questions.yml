@@ -1,0 +1,18 @@
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest! 🚀
+
+        You probably have a question about one of the specific projects (FastAPI, Typer, SQLModel, etc), please ask in their specific repo. 🙏
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        What is the question?
+      placeholder: |
+        What does "tiangolo" mean?
+    validations:
+      required: true

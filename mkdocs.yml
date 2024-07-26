@@ -1,0 +1,96 @@
+INHERIT: ./mkdocs.maybe-insiders.yml
+site_name: tiangolo's boring personal website
+site_description: Stuff by tiangolo
+site_url: https://tiangolo.com/
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+  - scheme: default
+    primary: blue grey
+    accent: teal
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - scheme: slate
+    primary: blue grey
+    accent: teal
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - navigation.indexes
+  - content.tooltips
+  - navigation.path
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  - navigation.tabs
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: img/favicon.png
+  favicon: img/favicon.png
+  language: en
+plugins:
+  search: null
+
+nav:
+  - index.md
+  - Open Source:
+    - open-source/index.md
+    - open-source/projects.md
+
+markdown_extensions:
+  md_in_html:
+  attr_list:
+  tables:
+  toc:
+    permalink: true
+  pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+  pymdownx.betterem:
+  pymdownx.blocks.details:
+  pymdownx.blocks.admonition:
+    types:
+    - note
+    - info
+    - tip
+    - warning
+    - danger
+  pymdownx.blocks.tab:
+    alternate_style: True
+  mdx_include:
+
+extra:
+  analytics:
+    provider: google
+    property: G-XK7CJY7QR9
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/tiangolo
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/tiangolo
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/tiangolo
+  - icon: fontawesome/brands/dev
+    link: https://dev.to/tiangolo
+  - icon: fontawesome/brands/medium
+    link: https://medium.com/@tiangolo
+  - icon: fontawesome/solid/globe
+    link: https://tiangolo.com
+  - icon: fontawesome/solid/envelope
+    link: mailto:tiangolo@gmail.com
+
+extra_css:
+  - css/termynal.css
+  - css/custom.css
+
+extra_javascript:
+  - js/termynal.js
+  - js/custom.js
