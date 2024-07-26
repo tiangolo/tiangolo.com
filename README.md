@@ -2,7 +2,7 @@
 
 <div style="font-size: 2em;" markdown="1">
 
-Hey! I'm **<a href="https://twitter.com/tiangolo" target="_blank">@tiangolo</a> (Sebastián Ramírez)** 👋
+Hey! I'm **<a href="https://twitter.com/tiangolo" target="_blank">@tiangolo</a> (Sebastián Ramírez)**. 👋
 
 </div>
 

@@ -16,7 +16,7 @@ article.md-content__inner { text-align: center; margin: 0 auto 5rem; max-width: 
 
 <div style="font-size: 2em;" markdown="1">
 
-Hey! I'm **<a href="https://twitter.com/tiangolo" target="_blank">@tiangolo</a> (Sebastián Ramírez)** 👋
+Hey! I'm **<a href="https://twitter.com/tiangolo" target="_blank">@tiangolo</a> (Sebastián Ramírez)**. 👋
 
 </div>
 
