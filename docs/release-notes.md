@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 📝 Add new section for projects and GitHub org team. PR [#35](https://github.com/tiangolo/tiangolo.com/pull/35) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update README.md Markdown links. PR [#32](https://github.com/tiangolo/tiangolo.com/pull/32) by [@tiangolo](https://github.com/tiangolo).
 
 ### Internal
