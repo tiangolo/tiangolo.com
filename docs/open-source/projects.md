@@ -1,11 +1,23 @@
-<script src="/js/projects.js"></script>
-
 # Projects
 
-I've created a few open source projects, you can see them on my [personal GitHub profile: @tiangolo](https://github.com/tiangolo){target=_blank}.
+I've created a few open source projects. ✨
 
-<div class="projects tiangolo" markdown="1">
+## FastAPI GitHub
 
-Loading projects from [tiangolo's GitHub](https://github.com/tiangolo){target=_blank}...
+Projects in the [FastAPI GitHub organization](https://github.com/fastapi){target=_blank}.
 
-</div>
+{% for project in projects["fastapi"] %}
+
+* <small>⭐️ {{ project.stargazers_count }}</small> [{{ project.name }}]({{ project.url }}){target=_blank} {{ "- " + project.description if project.description }}
+
+{% endfor %}
+
+## tiangolo's GitHub
+
+Projects in my [personal GitHub profile: @tiangolo](https://github.com/tiangolo){target=_blank}.
+
+{% for project in projects["tiangolo"] %}
+
+* <small>⭐️ {{ project.stargazers_count }}</small> [{{ project.name }}]({{ project.url }}){target=_blank} {{ "- " + project.description if project.description }}
+
+{% endfor %}
