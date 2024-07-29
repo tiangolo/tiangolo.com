@@ -36,12 +36,17 @@ theme:
   language: en
 plugins:
   search: null
+  macros:
+    include_yaml:
+    - projects: data/projects.yml
+    - members: data/members.yml
 
 nav:
   - index.md
   - Open Source:
     - open-source/index.md
-    - open-source/projects.md
+    - projects.md
+    - github-fastapi.md
 
 markdown_extensions:
   md_in_html:
