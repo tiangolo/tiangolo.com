@@ -10,6 +10,11 @@ on:
         required: false
         default: 'false'
 
+  # TODO: fix this
+  push:
+    branches:
+      - generate-projects-data
+
 jobs:
   generate-projects-data:
     if: github.repository_owner == 'tiangolo'
@@ -29,8 +34,8 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled == 'true' }}
         with:
           limit-access-to-actor: true
-      - uses: ./.github/actions/generate-repos-data
+      - uses: ./.github/actions/generate-projects-data
         with:
-          token: ${{ secrets.GENERATE_DATA }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           github_user: tiangolo
           github_org: fastapi
