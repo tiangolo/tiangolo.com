@@ -1,17 +1,13 @@
 tiangolo:
-- stargazers_count: 73877
-  html_url: https://github.com/tiangolo/fastapi
-  name: fastapi
-  description: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-- stargazers_count: 24876
+- stargazers_count: 24925
   html_url: https://github.com/tiangolo/full-stack-fastapi-template
   name: full-stack-fastapi-template
   description: Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
-- stargazers_count: 14991
+- stargazers_count: 15009
   html_url: https://github.com/tiangolo/typer
   name: typer
   description: Typer, build great CLIs. Easy to code. Based on Python type hints.
-- stargazers_count: 13691
+- stargazers_count: 13704
   html_url: https://github.com/tiangolo/sqlmodel
   name: sqlmodel
   description: SQL databases in Python, designed for simplicity, compatibility, and robustness.
@@ -19,11 +15,11 @@ tiangolo:
   html_url: https://github.com/tiangolo/uwsgi-nginx-flask-docker
   name: uwsgi-nginx-flask-docker
   description: Docker image with uWSGI and Nginx for Flask applications in Python running in a single container.
-- stargazers_count: 2643
+- stargazers_count: 2644
   html_url: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
   name: uvicorn-gunicorn-fastapi-docker
   description: Docker image with Uvicorn managed by Gunicorn for high-performance FastAPI web applications in Python with performance auto-tuning.
-- stargazers_count: 1522
+- stargazers_count: 1524
   html_url: https://github.com/tiangolo/asyncer
   name: asyncer
   description: Asyncer, async and await, focused on developer experience.
@@ -31,7 +27,7 @@ tiangolo:
   html_url: https://github.com/tiangolo/pydantic-sqlalchemy
   name: pydantic-sqlalchemy
   description: Tools to convert SQLAlchemy models to Pydantic models
-- stargazers_count: 1082
+- stargazers_count: 1085
   html_url: https://github.com/tiangolo/dockerswarm.rocks
   name: dockerswarm.rocks
   description: Docker Swarm mode rocks! Ideas, tools and recipes. Get a production-ready, distributed, HTTPS served, cluster in minutes, not weeks.
@@ -59,11 +55,11 @@ tiangolo:
   html_url: https://github.com/tiangolo/fastapi-cli
   name: fastapi-cli
   description: Run and manage FastAPI apps from the command line with FastAPI CLI. 🚀
-- stargazers_count: 270
+- stargazers_count: 269
   html_url: https://github.com/tiangolo/blog-posts
   name: blog-posts
   description: Blog posts and related code by Sebastián Ramírez (@tiangolo)
-- stargazers_count: 170
+- stargazers_count: 171
   html_url: https://github.com/tiangolo/uvicorn-gunicorn-starlette-docker
   name: uvicorn-gunicorn-starlette-docker
   description: Docker image with Uvicorn managed by Gunicorn for high-performance Starlette web applications in Python with performance auto-tuning.
@@ -71,7 +67,7 @@ tiangolo:
   html_url: https://github.com/tiangolo/latest-changes
   name: latest-changes
   description: A GitHub Action to add latest changes after each PR merged automatically
-- stargazers_count: 161
+- stargazers_count: 162
   html_url: https://github.com/tiangolo/meinheld-gunicorn-docker
   name: meinheld-gunicorn-docker
   description: Docker image with Meinheld managed by Gunicorn for high-performance WSGI (Flask, Django, etc) web applications in Python with performance auto-tuning.
@@ -99,3 +95,8 @@ tiangolo:
   html_url: https://github.com/tiangolo/tiangolo.com
   name: tiangolo.com
   description: null
+fastapi:
+- stargazers_count: 73969
+  html_url: https://github.com/fastapi/fastapi
+  name: fastapi
+  description: FastAPI framework, high performance, easy to learn, fast to code, ready for production
