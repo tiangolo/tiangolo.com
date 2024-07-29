@@ -1,0 +1,16 @@
+name: "Generate Data"
+description: "Generate the data for projects and teams"
+author: "Sebastián Ramírez <tiangolo@gmail.com>"
+inputs:
+  token:
+    description: 'User token, to read the GitHub API. Can be passed in using {{ secrets.DATA_TOKEN }}'
+    required: true
+  github_user:
+    description: GitHub user that owns repos
+    required: true
+  github_org:
+    description: GitHub organization that owns repos
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
