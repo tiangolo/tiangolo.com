@@ -10,11 +10,6 @@ on:
         required: false
         default: 'false'
 
-  # TODO: fix this
-  push:
-    branches:
-      - generate-projects-data
-
 jobs:
   generate-projects-data:
     if: github.repository_owner == 'tiangolo'
