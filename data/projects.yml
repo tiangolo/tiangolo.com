@@ -1,0 +1,101 @@
+tiangolo:
+- stargazers_count: 73877
+  html_url: https://github.com/tiangolo/fastapi
+  name: fastapi
+  description: FastAPI framework, high performance, easy to learn, fast to code, ready for production
+- stargazers_count: 24876
+  html_url: https://github.com/tiangolo/full-stack-fastapi-template
+  name: full-stack-fastapi-template
+  description: Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
+- stargazers_count: 14991
+  html_url: https://github.com/tiangolo/typer
+  name: typer
+  description: Typer, build great CLIs. Easy to code. Based on Python type hints.
+- stargazers_count: 13691
+  html_url: https://github.com/tiangolo/sqlmodel
+  name: sqlmodel
+  description: SQL databases in Python, designed for simplicity, compatibility, and robustness.
+- stargazers_count: 2967
+  html_url: https://github.com/tiangolo/uwsgi-nginx-flask-docker
+  name: uwsgi-nginx-flask-docker
+  description: Docker image with uWSGI and Nginx for Flask applications in Python running in a single container.
+- stargazers_count: 2643
+  html_url: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
+  name: uvicorn-gunicorn-fastapi-docker
+  description: Docker image with Uvicorn managed by Gunicorn for high-performance FastAPI web applications in Python with performance auto-tuning.
+- stargazers_count: 1522
+  html_url: https://github.com/tiangolo/asyncer
+  name: asyncer
+  description: Asyncer, async and await, focused on developer experience.
+- stargazers_count: 1137
+  html_url: https://github.com/tiangolo/pydantic-sqlalchemy
+  name: pydantic-sqlalchemy
+  description: Tools to convert SQLAlchemy models to Pydantic models
+- stargazers_count: 1082
+  html_url: https://github.com/tiangolo/dockerswarm.rocks
+  name: dockerswarm.rocks
+  description: Docker Swarm mode rocks! Ideas, tools and recipes. Get a production-ready, distributed, HTTPS served, cluster in minutes, not weeks.
+- stargazers_count: 1060
+  html_url: https://github.com/tiangolo/nginx-rtmp-docker
+  name: nginx-rtmp-docker
+  description: Docker image with Nginx using the nginx-rtmp-module module for live multimedia (video) streaming.
+- stargazers_count: 642
+  html_url: https://github.com/tiangolo/uwsgi-nginx-docker
+  name: uwsgi-nginx-docker
+  description: Docker image with uWSGI and Nginx for applications in Python (as Flask) in a single container.
+- stargazers_count: 620
+  html_url: https://github.com/tiangolo/uvicorn-gunicorn-docker
+  name: uvicorn-gunicorn-docker
+  description: Docker image with Uvicorn managed by Gunicorn for high-performance web applications in Python with performance auto-tuning.
+- stargazers_count: 483
+  html_url: https://github.com/tiangolo/meinheld-gunicorn-flask-docker
+  name: meinheld-gunicorn-flask-docker
+  description: Docker image with Meinheld and Gunicorn for Flask applications in Python.
+- stargazers_count: 359
+  html_url: https://github.com/tiangolo/poetry-version-plugin
+  name: poetry-version-plugin
+  description: Poetry plugin for dynamically extracting the package version from a __version__ variable or a Git tag.
+- stargazers_count: 291
+  html_url: https://github.com/tiangolo/fastapi-cli
+  name: fastapi-cli
+  description: Run and manage FastAPI apps from the command line with FastAPI CLI. 🚀
+- stargazers_count: 270
+  html_url: https://github.com/tiangolo/blog-posts
+  name: blog-posts
+  description: Blog posts and related code by Sebastián Ramírez (@tiangolo)
+- stargazers_count: 170
+  html_url: https://github.com/tiangolo/uvicorn-gunicorn-starlette-docker
+  name: uvicorn-gunicorn-starlette-docker
+  description: Docker image with Uvicorn managed by Gunicorn for high-performance Starlette web applications in Python with performance auto-tuning.
+- stargazers_count: 165
+  html_url: https://github.com/tiangolo/latest-changes
+  name: latest-changes
+  description: A GitHub Action to add latest changes after each PR merged automatically
+- stargazers_count: 161
+  html_url: https://github.com/tiangolo/meinheld-gunicorn-docker
+  name: meinheld-gunicorn-docker
+  description: Docker image with Meinheld managed by Gunicorn for high-performance WSGI (Flask, Django, etc) web applications in Python with performance auto-tuning.
+- stargazers_count: 58
+  html_url: https://github.com/tiangolo/issue-manager
+  name: issue-manager
+  description: Automatically close issues that have a label, after a custom delay, if no one replies back.
+- stargazers_count: 24
+  html_url: https://github.com/tiangolo/label-approved
+  name: label-approved
+  description: Label a Pull Request after a number of approvals
+- stargazers_count: 15
+  html_url: https://github.com/tiangolo/docker-auto-labels
+  name: docker-auto-labels
+  description: Generate each Docker constraint label in random nodes in the cluster.
+- stargazers_count: 14
+  html_url: https://github.com/tiangolo/github-actions-sandbox
+  name: github-actions-sandbox
+  description: Not useful for you. It's just a sandbox GitHub repo for me to try out stuff and develop GitHub Actions.
+- stargazers_count: 14
+  html_url: https://github.com/tiangolo/tiangolo
+  name: tiangolo
+  description: null
+- stargazers_count: 8
+  html_url: https://github.com/tiangolo/tiangolo.com
+  name: tiangolo.com
+  description: null
