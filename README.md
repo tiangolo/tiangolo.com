@@ -8,7 +8,7 @@ Hey! I'm **<a href="https://twitter.com/tiangolo" target="_blank">@tiangolo</a> 
 
 <div style="font-size: 1.5em" markdown="1">
 
-You are probably looking for my **<a href="https://tiangolo.com/open-source/projects/">open source projects</a>**.
+You are probably looking for my **<a href="https://tiangolo.com/projects/">open source projects</a>**.
 
 </div>
 
