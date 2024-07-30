@@ -2,6 +2,8 @@ INHERIT: ./mkdocs.maybe-insiders.yml
 site_name: tiangolo's boring personal website
 site_description: Stuff by tiangolo
 site_url: https://tiangolo.com/
+repo_name: tiangolo/tiangolo.com
+repo_url: https://github.com/tiangolo/tiangolo.com
 theme:
   name: material
   custom_dir: docs/overrides
