@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 📝 Fix README link. PR [#41](https://github.com/tiangolo/tiangolo.com/pull/41) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Tweak org docs. PR [#40](https://github.com/tiangolo/tiangolo.com/pull/40) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add new section for projects and GitHub org team. PR [#35](https://github.com/tiangolo/tiangolo.com/pull/35) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update README.md Markdown links. PR [#32](https://github.com/tiangolo/tiangolo.com/pull/32) by [@tiangolo](https://github.com/tiangolo).
