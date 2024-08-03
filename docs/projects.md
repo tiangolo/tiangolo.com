@@ -8,7 +8,7 @@ Projects in the [FastAPI GitHub organization](https://github.com/fastapi){target
 
 {% for project in projects["fastapi"] %}
 
-* <small>⭐️ {{ project.stargazers_count }}</small> [{{ project.name }}]({{ project.url }}){target=_blank} {{ "- " + project.description if project.description }}
+* <small>⭐️ {{ project.stargazers_count }}</small> [{{ project.name }}]({{ project.html_url }}){target=_blank} {{ "- " + project.description if project.description }}
 
 {% endfor %}
 
@@ -18,6 +18,6 @@ Projects in my [personal GitHub profile: @tiangolo](https://github.com/tiangolo)
 
 {% for project in projects["tiangolo"] %}
 
-* <small>⭐️ {{ project.stargazers_count }}</small> [{{ project.name }}]({{ project.url }}){target=_blank} {{ "- " + project.description if project.description }}
+* <small>⭐️ {{ project.stargazers_count }}</small> [{{ project.name }}]({{ project.html_url }}){target=_blank} {{ "- " + project.description if project.description }}
 
 {% endfor %}
