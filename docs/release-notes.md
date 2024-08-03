@@ -13,6 +13,7 @@
 
 ### Internal
 
+* 🔧 Update projects data. PR [#44](https://github.com/tiangolo/tiangolo.com/pull/44) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 👷 Update issue-manager.yml GitHub Action permissions. PR [#43](https://github.com/tiangolo/tiangolo.com/pull/43) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Refactor GitHub Action to comment docs deployment URLs and update token. PR [#42](https://github.com/tiangolo/tiangolo.com/pull/42) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update MkDocs repo URL config. PR [#39](https://github.com/tiangolo/tiangolo.com/pull/39) by [@tiangolo](https://github.com/tiangolo).
