@@ -14,6 +14,7 @@
 
 ### Internal
 
+* 👷 Show docs deployment status and preview URLs in comment. PR [#48](https://github.com/tiangolo/tiangolo.com/pull/48) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update MkDocs, enable auto dark mode. PR [#47](https://github.com/tiangolo/tiangolo.com/pull/47) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update projects data. PR [#44](https://github.com/tiangolo/tiangolo.com/pull/44) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 👷 Update issue-manager.yml GitHub Action permissions. PR [#43](https://github.com/tiangolo/tiangolo.com/pull/43) by [@tiangolo](https://github.com/tiangolo).
