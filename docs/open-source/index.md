@@ -2,4 +2,4 @@
 
 Here's the open source stuff.
 
-Go check the [open source projects](projects.md).
+Go check the [open source projects](../projects.md).
