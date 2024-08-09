@@ -14,6 +14,7 @@
 
 ### Internal
 
+* 🔨 Update docs.py script to enable dirty reload conditionally. PR [#53](https://github.com/tiangolo/tiangolo.com/pull/53) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update MkDocs previews. PR [#52](https://github.com/tiangolo/tiangolo.com/pull/52) by [@tiangolo](https://github.com/tiangolo).
 * 💄 Update Termynal line-height. PR [#51](https://github.com/tiangolo/tiangolo.com/pull/51) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade build docs configs. PR [#50](https://github.com/tiangolo/tiangolo.com/pull/50) by [@tiangolo](https://github.com/tiangolo).
