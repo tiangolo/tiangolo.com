@@ -31,7 +31,7 @@ This is the current list of team members. 😎
 <div class="user-list user-list-center">
 {% for user in members["members"] %}
 
-<div class="user"><a href="{{ user.url }}" target="_blank"><div class="avatar-wrapper"><img src="{{ user.avatar_url }}"/></div><div class="title">@{{ user.login }}</div></a></div>
+<div class="user"><a href="https://github.com/{{ user.login }}" target="_blank"><div class="avatar-wrapper"><img src="https://github.com/{{ user.login }}.png"/></div><div class="title">@{{ user.login }}</div></a></div>
 {% endfor %}
 
 </div>
