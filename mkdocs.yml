@@ -27,23 +27,38 @@ theme:
       icon: material/lightbulb-outline
       name: Switch to system preference
   features:
-  - search.suggest
-  - search.highlight
-  - content.tabs.link
-  - navigation.indexes
-  - content.tooltips
-  - navigation.path
   - content.code.annotate
   - content.code.copy
-  - content.code.select
+  # - content.code.select
+  - content.footnote.tooltips
   - navigation.tabs
+  - content.tabs.link
+  - navigation.tabs.sticky
+  - content.tooltips
+  - navigation.footer
+  - navigation.indexes
+  - navigation.instant
+  - navigation.instant.prefetch
+  - navigation.instant.preview
+  - navigation.instant.progress
+  - navigation.path
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.share
+  - search.suggest
+  - toc.follow
+
   icon:
     repo: fontawesome/brands/github-alt
   logo: img/favicon.png
   favicon: img/favicon.png
   language: en
 plugins:
-  search: null
+  # Material for MkDocs
+  search:
+  social:
+  # Other plugins
   macros:
     include_yaml:
     - projects: data/projects.yml
@@ -57,33 +72,66 @@ nav:
     - github-fastapi.md
 
 markdown_extensions:
-  md_in_html:
+  # Python Markdown
+  abbr:
   attr_list:
+  footnotes:
+  md_in_html:
   tables:
   toc:
     permalink: true
+
+  # Python Markdown Extensions
+  pymdownx.betterem:
+    smart_enable: all
+  pymdownx.caret:
+  pymdownx.highlight:
+    line_spans: __span
+  pymdownx.inlinehilite:
+  pymdownx.keys:
+  pymdownx.mark:
   pymdownx.superfences:
     custom_fences:
     - name: mermaid
       class: mermaid
-      format: !!python/name:pymdownx.superfences.fence_code_format ''
-  pymdownx.betterem:
-  pymdownx.blocks.details:
+      format: !!python/name:pymdownx.superfences.fence_code_format
+  pymdownx.tilde:
+
+  # pymdownx blocks
   pymdownx.blocks.admonition:
     types:
     - note
-    - info
-    - tip
-    - warning
+    - attention
+    - caution
     - danger
+    - error
+    - tip
+    - hint
+    - warning
+  pymdownx.blocks.details:
   pymdownx.blocks.tab:
     alternate_style: True
+
+  # Other extensions
   mdx_include:
 
 extra:
   analytics:
     provider: google
     property: G-XK7CJY7QR9
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback!
   social:
   - icon: fontawesome/brands/github-alt
     link: https://github.com/tiangolo
@@ -107,3 +155,6 @@ extra_css:
 extra_javascript:
   - js/termynal.js
   - js/custom.js
+
+hooks:
+  - scripts/mkdocs_hooks.py
