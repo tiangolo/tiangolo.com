@@ -14,6 +14,7 @@
 
 ### Internal
 
+* 👷 Upgrade build docs configs. PR [#50](https://github.com/tiangolo/tiangolo.com/pull/50) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update docs-previews to handle no docs changes. PR [#49](https://github.com/tiangolo/tiangolo.com/pull/49) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Show docs deployment status and preview URLs in comment. PR [#48](https://github.com/tiangolo/tiangolo.com/pull/48) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update MkDocs, enable auto dark mode. PR [#47](https://github.com/tiangolo/tiangolo.com/pull/47) by [@tiangolo](https://github.com/tiangolo).
