@@ -14,6 +14,7 @@
 
 ### Internal
 
+* 👷 Update `latest-changes` GitHub Action. PR [#58](https://github.com/tiangolo/tiangolo.com/pull/58) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update team data docs. PR [#54](https://github.com/tiangolo/tiangolo.com/pull/54) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Update docs.py script to enable dirty reload conditionally. PR [#53](https://github.com/tiangolo/tiangolo.com/pull/53) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update MkDocs previews. PR [#52](https://github.com/tiangolo/tiangolo.com/pull/52) by [@tiangolo](https://github.com/tiangolo).
