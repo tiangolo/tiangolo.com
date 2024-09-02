@@ -14,6 +14,7 @@
 
 ### Internal
 
+* 👷 Update `build-docs.yml` GitHub Action `upload-artifact`. PR [#61](https://github.com/tiangolo/tiangolo.com/pull/61) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update `latest-changes` GitHub Action. PR [#58](https://github.com/tiangolo/tiangolo.com/pull/58) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update team data docs. PR [#54](https://github.com/tiangolo/tiangolo.com/pull/54) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Update docs.py script to enable dirty reload conditionally. PR [#53](https://github.com/tiangolo/tiangolo.com/pull/53) by [@tiangolo](https://github.com/tiangolo).
