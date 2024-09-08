@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-material from 9.5.30 to 9.5.34. PR [#62](https://github.com/tiangolo/tiangolo.com/pull/62) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update `issue-manager.yml`. PR [#63](https://github.com/tiangolo/tiangolo.com/pull/63) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update `build-docs.yml` GitHub Action `upload-artifact`. PR [#61](https://github.com/tiangolo/tiangolo.com/pull/61) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update `latest-changes` GitHub Action. PR [#58](https://github.com/tiangolo/tiangolo.com/pull/58) by [@tiangolo](https://github.com/tiangolo).
