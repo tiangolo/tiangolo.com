@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 🔧 Update projects data. PR [#60](https://github.com/tiangolo/tiangolo.com/pull/60) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 📝 Fix rendering project links. PR [#46](https://github.com/tiangolo/tiangolo.com/pull/46) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Fix README link. PR [#41](https://github.com/tiangolo/tiangolo.com/pull/41) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Tweak org docs. PR [#40](https://github.com/tiangolo/tiangolo.com/pull/40) by [@tiangolo](https://github.com/tiangolo).
@@ -14,6 +15,11 @@
 
 ### Internal
 
+* ⬆ Bump typer from 0.12.3 to 0.12.5. PR [#59](https://github.com/tiangolo/tiangolo.com/pull/59) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.5.30 to 9.5.34. PR [#62](https://github.com/tiangolo/tiangolo.com/pull/62) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update `issue-manager.yml`. PR [#63](https://github.com/tiangolo/tiangolo.com/pull/63) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Update `build-docs.yml` GitHub Action `upload-artifact`. PR [#61](https://github.com/tiangolo/tiangolo.com/pull/61) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Update `latest-changes` GitHub Action. PR [#58](https://github.com/tiangolo/tiangolo.com/pull/58) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update team data docs. PR [#54](https://github.com/tiangolo/tiangolo.com/pull/54) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Update docs.py script to enable dirty reload conditionally. PR [#53](https://github.com/tiangolo/tiangolo.com/pull/53) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update MkDocs previews. PR [#52](https://github.com/tiangolo/tiangolo.com/pull/52) by [@tiangolo](https://github.com/tiangolo).
