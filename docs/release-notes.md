@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 👷 Add GitHub Action labeler. PR [#73](https://github.com/tiangolo/tiangolo.com/pull/73) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade Cloudflare GitHub Action. PR [#72](https://github.com/tiangolo/tiangolo.com/pull/72) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump typer from 0.12.3 to 0.12.5. PR [#59](https://github.com/tiangolo/tiangolo.com/pull/59) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.5.30 to 9.5.34. PR [#62](https://github.com/tiangolo/tiangolo.com/pull/62) by [@dependabot[bot]](https://github.com/apps/dependabot).
