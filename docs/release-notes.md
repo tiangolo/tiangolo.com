@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-macros-plugin from 1.0.5 to 1.2.0. PR [#65](https://github.com/tiangolo/tiangolo.com/pull/65) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add GitHub Action labeler. PR [#73](https://github.com/tiangolo/tiangolo.com/pull/73) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade Cloudflare GitHub Action. PR [#72](https://github.com/tiangolo/tiangolo.com/pull/72) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump typer from 0.12.3 to 0.12.5. PR [#59](https://github.com/tiangolo/tiangolo.com/pull/59) by [@dependabot[bot]](https://github.com/apps/dependabot).
