@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump tiangolo/issue-manager from 0.5.0 to 0.5.1. PR [#64](https://github.com/tiangolo/tiangolo.com/pull/64) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#71](https://github.com/tiangolo/tiangolo.com/pull/71) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * ⬆ Bump mkdocs-macros-plugin from 1.0.5 to 1.2.0. PR [#65](https://github.com/tiangolo/tiangolo.com/pull/65) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add GitHub Action labeler. PR [#73](https://github.com/tiangolo/tiangolo.com/pull/73) by [@tiangolo](https://github.com/tiangolo).
