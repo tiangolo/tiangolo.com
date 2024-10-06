@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 👷 Update worfkow deploy-docs-notify URL. PR [#74](https://github.com/tiangolo/tiangolo.com/pull/74) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.5.34 to 9.5.39. PR [#70](https://github.com/tiangolo/tiangolo.com/pull/70) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/issue-manager from 0.5.0 to 0.5.1. PR [#64](https://github.com/tiangolo/tiangolo.com/pull/64) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#71](https://github.com/tiangolo/tiangolo.com/pull/71) by [@github-actions[bot]](https://github.com/apps/github-actions).
