@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 🔧 Update projects data. PR [#86](https://github.com/tiangolo/tiangolo.com/pull/86) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * ⬆ Update pre-commit requirement from <4.0.0,>=2.17.0 to >=2.17.0,<5.0.0. PR [#76](https://github.com/tiangolo/tiangolo.com/pull/76) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update `labeler.yml`. PR [#75](https://github.com/tiangolo/tiangolo.com/pull/75) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update worfkow deploy-docs-notify URL. PR [#74](https://github.com/tiangolo/tiangolo.com/pull/74) by [@tiangolo](https://github.com/tiangolo).
