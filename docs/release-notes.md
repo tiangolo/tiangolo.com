@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Update pre-commit requirement from <4.0.0,>=2.17.0 to >=2.17.0,<5.0.0. PR [#76](https://github.com/tiangolo/tiangolo.com/pull/76) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update `labeler.yml`. PR [#75](https://github.com/tiangolo/tiangolo.com/pull/75) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update worfkow deploy-docs-notify URL. PR [#74](https://github.com/tiangolo/tiangolo.com/pull/74) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.5.34 to 9.5.39. PR [#70](https://github.com/tiangolo/tiangolo.com/pull/70) by [@dependabot[bot]](https://github.com/apps/dependabot).
