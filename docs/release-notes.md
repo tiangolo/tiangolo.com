@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 🔨 Update docs previews script. PR [#100](https://github.com/tiangolo/tiangolo.com/pull/100) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update build-docs filter paths. PR [#99](https://github.com/tiangolo/tiangolo.com/pull/99) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update team members. PR [#98](https://github.com/tiangolo/tiangolo.com/pull/98) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-macros-plugin from 1.2.0 to 1.3.7. PR [#84](https://github.com/tiangolo/tiangolo.com/pull/84) by [@dependabot[bot]](https://github.com/apps/dependabot).
