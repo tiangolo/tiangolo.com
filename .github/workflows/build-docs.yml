@@ -35,6 +35,7 @@ jobs:
             - mkdocs.no-insiders.yml
             - .github/workflows/build-docs.yml
             - .github/workflows/deploy-docs.yml
+            - data/**
 
   build-docs:
     needs:
