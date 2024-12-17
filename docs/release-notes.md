@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Update httpx requirement from <0.28.0,>=0.27.0 to >=0.27.0,<0.29.0. PR [#93](https://github.com/tiangolo/tiangolo.com/pull/93) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.12.5 to 0.15.1. PR [#101](https://github.com/tiangolo/tiangolo.com/pull/101) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.5.43 to 9.5.49. PR [#103](https://github.com/tiangolo/tiangolo.com/pull/103) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔨 Update docs previews script. PR [#100](https://github.com/tiangolo/tiangolo.com/pull/100) by [@tiangolo](https://github.com/tiangolo).
