@@ -15,6 +15,11 @@
 
 ### Internal
 
+* ⬆ Bump typer from 0.12.5 to 0.15.1. PR [#101](https://github.com/tiangolo/tiangolo.com/pull/101) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.5.43 to 9.5.49. PR [#103](https://github.com/tiangolo/tiangolo.com/pull/103) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔨 Update docs previews script. PR [#100](https://github.com/tiangolo/tiangolo.com/pull/100) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Update build-docs filter paths. PR [#99](https://github.com/tiangolo/tiangolo.com/pull/99) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Update team members. PR [#98](https://github.com/tiangolo/tiangolo.com/pull/98) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-macros-plugin from 1.2.0 to 1.3.7. PR [#84](https://github.com/tiangolo/tiangolo.com/pull/84) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.5.39 to 9.5.43. PR [#85](https://github.com/tiangolo/tiangolo.com/pull/85) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 10.4.0 to 11.0.0. PR [#80](https://github.com/tiangolo/tiangolo.com/pull/80) by [@dependabot[bot]](https://github.com/apps/dependabot).
