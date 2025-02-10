@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 🔧 Update projects data. PR [#104](https://github.com/tiangolo/tiangolo.com/pull/104) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 🔧 Update projects data. PR [#95](https://github.com/tiangolo/tiangolo.com/pull/95) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * ⬆ Bump tiangolo/latest-changes from 0.3.1 to 0.3.2. PR [#88](https://github.com/tiangolo/tiangolo.com/pull/88) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update httpx requirement from <0.28.0,>=0.27.0 to >=0.27.0,<0.29.0. PR [#93](https://github.com/tiangolo/tiangolo.com/pull/93) by [@dependabot[bot]](https://github.com/apps/dependabot).
