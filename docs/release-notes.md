@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump pillow from 11.0.0 to 11.1.0. PR [#105](https://github.com/tiangolo/tiangolo.com/pull/105) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#104](https://github.com/tiangolo/tiangolo.com/pull/104) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 🔧 Update projects data. PR [#95](https://github.com/tiangolo/tiangolo.com/pull/95) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * ⬆ Bump tiangolo/latest-changes from 0.3.1 to 0.3.2. PR [#88](https://github.com/tiangolo/tiangolo.com/pull/88) by [@dependabot[bot]](https://github.com/apps/dependabot).
