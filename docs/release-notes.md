@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-material from 9.5.49 to 9.6.3. PR [#109](https://github.com/tiangolo/tiangolo.com/pull/109) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.0.0 to 11.1.0. PR [#105](https://github.com/tiangolo/tiangolo.com/pull/105) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#104](https://github.com/tiangolo/tiangolo.com/pull/104) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 🔧 Update projects data. PR [#95](https://github.com/tiangolo/tiangolo.com/pull/95) by [@github-actions[bot]](https://github.com/apps/github-actions).
