@@ -1,3 +1,10 @@
+## Other translated versions
+
+This project is available in the following languages:
+
+- 🇺🇸 **English** — [README](README.md)
+- 🇧🇷 **Português (Brasil)** — [README em Português](README-ptbr.md)
+
 <img style="border-radius: 100%; max-height: 15rem;" src="https://github.com/tiangolo.png">
 
 <div style="font-size: 2em;" markdown="1">
