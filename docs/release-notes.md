@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 🔧 Remove Google Analytics. PR [#130](https://github.com/tiangolo/tiangolo.com/pull/130) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump typer from 0.15.1 to 0.15.2. PR [#113](https://github.com/tiangolo/tiangolo.com/pull/113) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.6.3 to 9.6.5. PR [#112](https://github.com/tiangolo/tiangolo.com/pull/112) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.5.49 to 9.6.3. PR [#109](https://github.com/tiangolo/tiangolo.com/pull/109) by [@dependabot[bot]](https://github.com/apps/dependabot).
