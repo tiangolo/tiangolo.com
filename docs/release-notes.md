@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-material from 9.6.5 to 9.6.10. PR [#118](https://github.com/tiangolo/tiangolo.com/pull/118) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#114](https://github.com/tiangolo/tiangolo.com/pull/114) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 🔧 Remove Google Analytics. PR [#130](https://github.com/tiangolo/tiangolo.com/pull/130) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump typer from 0.15.1 to 0.15.2. PR [#113](https://github.com/tiangolo/tiangolo.com/pull/113) by [@dependabot[bot]](https://github.com/apps/dependabot).
