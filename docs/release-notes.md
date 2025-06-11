@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump cairosvg from 2.7.1 to 2.8.2. PR [#129](https://github.com/tiangolo/tiangolo.com/pull/129) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.1.0 to 11.2.1. PR [#121](https://github.com/tiangolo/tiangolo.com/pull/121) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.6.5 to 9.6.10. PR [#118](https://github.com/tiangolo/tiangolo.com/pull/118) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#114](https://github.com/tiangolo/tiangolo.com/pull/114) by [@github-actions[bot]](https://github.com/apps/github-actions).
