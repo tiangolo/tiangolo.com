@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 🔧 Update projects data. PR [#132](https://github.com/tiangolo/tiangolo.com/pull/132) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * ⬆ Bump mkdocs-material from 9.6.5 to 9.6.14. PR [#126](https://github.com/tiangolo/tiangolo.com/pull/126) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.15.2 to 0.16.0. PR [#131](https://github.com/tiangolo/tiangolo.com/pull/131) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump cairosvg from 2.7.1 to 2.8.2. PR [#129](https://github.com/tiangolo/tiangolo.com/pull/129) by [@dependabot[bot]](https://github.com/apps/dependabot).
