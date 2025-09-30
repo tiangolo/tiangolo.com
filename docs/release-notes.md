@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 👷 Update docs previews comment, single comment, add failure status. PR [#154](https://github.com/tiangolo/tiangolo.com/pull/154) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.6.14 to 9.6.15. PR [#134](https://github.com/tiangolo/tiangolo.com/pull/134) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.2.1 to 11.3.0. PR [#133](https://github.com/tiangolo/tiangolo.com/pull/133) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#132](https://github.com/tiangolo/tiangolo.com/pull/132) by [@github-actions[bot]](https://github.com/apps/github-actions).
