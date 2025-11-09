@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump typer from 0.16.0 to 0.20.0. PR [#158](https://github.com/tiangolo/tiangolo.com/pull/158) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/download-artifact from 5 to 6. PR [#159](https://github.com/tiangolo/tiangolo.com/pull/159) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/latest-changes from 0.3.2 to 0.4.0. PR [#136](https://github.com/tiangolo/tiangolo.com/pull/136) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/checkout from 4 to 5. PR [#139](https://github.com/tiangolo/tiangolo.com/pull/139) by [@dependabot[bot]](https://github.com/apps/dependabot).
