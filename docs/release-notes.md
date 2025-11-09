@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-macros-plugin from 1.3.7 to 1.4.1. PR [#160](https://github.com/tiangolo/tiangolo.com/pull/160) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.3.0 to 12.0.0. PR [#156](https://github.com/tiangolo/tiangolo.com/pull/156) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.6.15 to 9.6.23. PR [#161](https://github.com/tiangolo/tiangolo.com/pull/161) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update docs previews comment, single comment, add failure status. PR [#154](https://github.com/tiangolo/tiangolo.com/pull/154) by [@tiangolo](https://github.com/tiangolo).
