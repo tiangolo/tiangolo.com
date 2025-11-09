@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump tiangolo/latest-changes from 0.3.2 to 0.4.0. PR [#136](https://github.com/tiangolo/tiangolo.com/pull/136) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/checkout from 4 to 5. PR [#139](https://github.com/tiangolo/tiangolo.com/pull/139) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/labeler from 5 to 6. PR [#145](https://github.com/tiangolo/tiangolo.com/pull/145) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/setup-python from 5 to 6. PR [#146](https://github.com/tiangolo/tiangolo.com/pull/146) by [@dependabot[bot]](https://github.com/apps/dependabot).
