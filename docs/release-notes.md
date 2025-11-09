@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump actions/checkout from 4 to 5. PR [#139](https://github.com/tiangolo/tiangolo.com/pull/139) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/labeler from 5 to 6. PR [#145](https://github.com/tiangolo/tiangolo.com/pull/145) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/setup-python from 5 to 6. PR [#146](https://github.com/tiangolo/tiangolo.com/pull/146) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-macros-plugin from 1.3.7 to 1.4.1. PR [#160](https://github.com/tiangolo/tiangolo.com/pull/160) by [@dependabot[bot]](https://github.com/apps/dependabot).
