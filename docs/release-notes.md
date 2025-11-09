@@ -15,6 +15,13 @@
 
 ### Internal
 
+* ⬆ Bump tiangolo/latest-changes from 0.3.2 to 0.4.0. PR [#136](https://github.com/tiangolo/tiangolo.com/pull/136) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/checkout from 4 to 5. PR [#139](https://github.com/tiangolo/tiangolo.com/pull/139) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/labeler from 5 to 6. PR [#145](https://github.com/tiangolo/tiangolo.com/pull/145) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/setup-python from 5 to 6. PR [#146](https://github.com/tiangolo/tiangolo.com/pull/146) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-macros-plugin from 1.3.7 to 1.4.1. PR [#160](https://github.com/tiangolo/tiangolo.com/pull/160) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pillow from 11.3.0 to 12.0.0. PR [#156](https://github.com/tiangolo/tiangolo.com/pull/156) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.6.15 to 9.6.23. PR [#161](https://github.com/tiangolo/tiangolo.com/pull/161) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update docs previews comment, single comment, add failure status. PR [#154](https://github.com/tiangolo/tiangolo.com/pull/154) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.6.14 to 9.6.15. PR [#134](https://github.com/tiangolo/tiangolo.com/pull/134) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.2.1 to 11.3.0. PR [#133](https://github.com/tiangolo/tiangolo.com/pull/133) by [@dependabot[bot]](https://github.com/apps/dependabot).
