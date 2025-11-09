@@ -15,6 +15,7 @@
 
 ### Internal
 
+* ⬆ Bump actions/labeler from 5 to 6. PR [#145](https://github.com/tiangolo/tiangolo.com/pull/145) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/setup-python from 5 to 6. PR [#146](https://github.com/tiangolo/tiangolo.com/pull/146) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-macros-plugin from 1.3.7 to 1.4.1. PR [#160](https://github.com/tiangolo/tiangolo.com/pull/160) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.3.0 to 12.0.0. PR [#156](https://github.com/tiangolo/tiangolo.com/pull/156) by [@dependabot[bot]](https://github.com/apps/dependabot).
