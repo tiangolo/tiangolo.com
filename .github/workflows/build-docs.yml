@@ -28,11 +28,8 @@ jobs:
             - docs/**
             - docs_src/**
             - requirements-docs.txt
-            - requirements-docs-insiders.txt
             - mkdocs.yml
-            - mkdocs.insiders.yml
-            - mkdocs.maybe-insiders.yml
-            - mkdocs.no-insiders.yml
+            - mkdocs.env.yml
             - .github/workflows/build-docs.yml
             - .github/workflows/deploy-docs.yml
             - data/**
@@ -56,15 +53,10 @@ jobs:
         id: cache
         with:
           path: ${{ env.pythonLocation }}
-          key: ${{ runner.os }}-python-docs-${{ env.pythonLocation }}-${{ hashFiles('requirements-docs.txt', 'requirements-docs-insiders.txt') }}-v01
+          key: ${{ runner.os }}-python-docs-${{ env.pythonLocation }}-${{ hashFiles('requirements-docs.txt') }}-v01
       - name: Install docs extras
         if: steps.cache.outputs.cache-hit != 'true'
         run: pip install -r requirements-docs.txt
-      - name: Install Material for MkDocs Insiders
-        if: ( github.event_name != 'pull_request' || github.secret_source == 'Actions' ) && steps.cache.outputs.cache-hit != 'true'
-        run: pip install -r requirements-docs-insiders.txt
-        env:
-          TOKEN: ${{ secrets.MKDOCS_MATERIAL_INSIDERS }}
       - uses: actions/cache@v4
         with:
           key: mkdocs-cards-${{ github.ref }}
