@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 💄 Use font Fira Code to fix display of Rich panels in docs in Windows. PR [#169](https://github.com/tiangolo/tiangolo.com/pull/169) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Upgrade Material for MkDocs and remove insiders. PR [#167](https://github.com/tiangolo/tiangolo.com/pull/167) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump typer from 0.16.0 to 0.20.0. PR [#158](https://github.com/tiangolo/tiangolo.com/pull/158) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/download-artifact from 5 to 6. PR [#159](https://github.com/tiangolo/tiangolo.com/pull/159) by [@dependabot[bot]](https://github.com/apps/dependabot).
