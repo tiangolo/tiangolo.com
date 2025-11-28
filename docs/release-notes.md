@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 💅 Update CSS to explicitly use emoji font. PR [#173](https://github.com/tiangolo/tiangolo.com/pull/173) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update projects data. PR [#60](https://github.com/tiangolo/tiangolo.com/pull/60) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 📝 Fix rendering project links. PR [#46](https://github.com/tiangolo/tiangolo.com/pull/46) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Fix README link. PR [#41](https://github.com/tiangolo/tiangolo.com/pull/41) by [@tiangolo](https://github.com/tiangolo).
