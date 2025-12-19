@@ -13,4 +13,4 @@ griffe-typingdoc==0.3.0
 griffe-warnings-deprecated==1.1.0
 # For griffe, it formats with black
 mkdocs-macros-plugin==1.4.1
-typer == 0.20.0
+typer == 0.20.1
