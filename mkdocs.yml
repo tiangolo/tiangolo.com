@@ -71,6 +71,9 @@ nav:
     - open-source/index.md
     - projects.md
     - github-fastapi.md
+  - Ideas:
+    - ideas/index.md
+    - ideas/library-agent-skills.md
 
 markdown_extensions:
   # Material for MkDocs
