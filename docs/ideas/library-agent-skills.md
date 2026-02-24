@@ -4,7 +4,7 @@ This is a complement to [https://agentskills.io](https://agentskills.io){target=
 
 ## Library Skills
 
-Agents working on a programming environment such as Python or JavaScript (TypeScript) with access to installed libraries can scan those installed libraries to find skills defined by them, to use the functionality provided by those libraries.
+Agents working in a programming environment such as Python or JavaScript (TypeScript) with access to installed libraries can scan those libraries for skills defined by them and use the functionality provided by those libraries.
 
 Each library can define its own skills in a `.agents/skills/` directory inside of its own package.
 
