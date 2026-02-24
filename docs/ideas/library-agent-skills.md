@@ -46,7 +46,7 @@ Agents can scan those local environments the same way they scan source code in t
 
 They might prompt the user and suggest the available skills, mentioning which installed library provides them.
 
-They could also have a predefined set of allowed library skills for common known packages if they are found installed.
+They could also have a predefined set of allowed library skills for commonly known packages if they are found installed.
 
 Or they could use the official skills provided by libraries by default when explicitly working with those libraries.
 
