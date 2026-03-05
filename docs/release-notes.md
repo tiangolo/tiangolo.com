@@ -18,6 +18,7 @@
 
 ### Internal
 
+* 👷 Add pre-commit with prek, CI for it, generate README hook. PR [#191](https://github.com/tiangolo/tiangolo.com/pull/191) by [@tiangolo](https://github.com/tiangolo).
 * ➕ Migrate to uv. PR [#181](https://github.com/tiangolo/tiangolo.com/pull/181) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade actions/checkout from v5 to v6. PR [#171](https://github.com/tiangolo/tiangolo.com/pull/171) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade `latest-changes` GitHub Action and pin `actions/checkout@v5`. PR [#170](https://github.com/tiangolo/tiangolo.com/pull/170) by [@tiangolo](https://github.com/tiangolo).
