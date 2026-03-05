@@ -17,6 +17,7 @@
 
 ### Internal
 
+* ➕ Migrate to uv. PR [#181](https://github.com/tiangolo/tiangolo.com/pull/181) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade actions/checkout from v5 to v6. PR [#171](https://github.com/tiangolo/tiangolo.com/pull/171) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade `latest-changes` GitHub Action and pin `actions/checkout@v5`. PR [#170](https://github.com/tiangolo/tiangolo.com/pull/170) by [@tiangolo](https://github.com/tiangolo).
 * 💄 Use font Fira Code to fix display of Rich panels in docs in Windows. PR [#169](https://github.com/tiangolo/tiangolo.com/pull/169) by [@tiangolo](https://github.com/tiangolo).
