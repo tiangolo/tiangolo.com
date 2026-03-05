@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 📝 Update link syntax to minimal Markdown. PR [#190](https://github.com/tiangolo/tiangolo.com/pull/190) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Handle external links `target=_blank` and CSS automatically in JS and CSS. PR [#189](https://github.com/tiangolo/tiangolo.com/pull/189) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add Library Agent Skills docs. PR [#180](https://github.com/tiangolo/tiangolo.com/pull/180) by [@tiangolo](https://github.com/tiangolo).
 * 💅 Update CSS to explicitly use emoji font. PR [#173](https://github.com/tiangolo/tiangolo.com/pull/173) by [@tiangolo](https://github.com/tiangolo).
