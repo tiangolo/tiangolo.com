@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 🔨 Handle external links `target=_blank` and CSS automatically in JS and CSS. PR [#189](https://github.com/tiangolo/tiangolo.com/pull/189) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add Library Agent Skills docs. PR [#180](https://github.com/tiangolo/tiangolo.com/pull/180) by [@tiangolo](https://github.com/tiangolo).
 * 💅 Update CSS to explicitly use emoji font. PR [#173](https://github.com/tiangolo/tiangolo.com/pull/173) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update projects data. PR [#60](https://github.com/tiangolo/tiangolo.com/pull/60) by [@github-actions[bot]](https://github.com/apps/github-actions).
@@ -17,6 +18,7 @@
 
 ### Internal
 
+* 👷 Add pre-commit with prek, CI for it, generate README hook. PR [#191](https://github.com/tiangolo/tiangolo.com/pull/191) by [@tiangolo](https://github.com/tiangolo).
 * ➕ Migrate to uv. PR [#181](https://github.com/tiangolo/tiangolo.com/pull/181) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade actions/checkout from v5 to v6. PR [#171](https://github.com/tiangolo/tiangolo.com/pull/171) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade `latest-changes` GitHub Action and pin `actions/checkout@v5`. PR [#170](https://github.com/tiangolo/tiangolo.com/pull/170) by [@tiangolo](https://github.com/tiangolo).
