@@ -17,7 +17,7 @@ jobs:
     outputs:
       docs: ${{ steps.filter.outputs.docs }}
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     # For pull requests it's not necessary to checkout the code but for the main branch it is
     - uses: dorny/paths-filter@v3
       id: filter
@@ -27,7 +27,8 @@ jobs:
             - README.md
             - docs/**
             - docs_src/**
-            - requirements-docs.txt
+            - pyproject.toml
+            - uv.lock
             - mkdocs.yml
             - mkdocs.env.yml
             - .github/workflows/build-docs.yml
@@ -44,28 +45,29 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
-      - uses: actions/cache@v4
-        id: cache
+          python-version-file: ".python-version"
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v7
         with:
-          path: ${{ env.pythonLocation }}
-          key: ${{ runner.os }}-python-docs-${{ env.pythonLocation }}-${{ hashFiles('requirements-docs.txt') }}-v01
+          enable-cache: true
+          cache-dependency-glob: |
+            pyproject.toml
+            uv.lock
       - name: Install docs extras
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: pip install -r requirements-docs.txt
-      - uses: actions/cache@v4
+        run: uv sync --locked --no-dev --group docs
+      - uses: actions/cache@v5
         with:
           key: mkdocs-cards-${{ github.ref }}
           path: .cache
       - name: Verify README
-        run: python ./scripts/docs.py verify-readme
+        run: uv run ./scripts/docs.py verify-readme
       - name: Build Docs
-        run: python ./scripts/docs.py build
-      - uses: actions/upload-artifact@v4
+        run: uv run ./scripts/docs.py build
+      - uses: actions/upload-artifact@v6
         with:
           name: docs-site
           path: ./site/**
