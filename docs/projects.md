@@ -1,3 +1,8 @@
+---
+include_yaml:
+    projects: data/projects.yml
+---
+
 # Projects
 
 I've created a few open source projects. ✨
