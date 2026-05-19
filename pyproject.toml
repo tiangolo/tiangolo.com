@@ -12,7 +12,7 @@ dev = [
     "prek>=0.3.4",
 ]
 docs = [
-    "cairosvg==2.8.2",
+    "cairosvg==2.9.0",
     "griffe-typingdoc==0.3.0",
     "griffe-warnings-deprecated==1.1.0",
     "mdx-include>=1.4.1,<2.0.0",
