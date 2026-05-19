@@ -21,6 +21,7 @@
 
 ### Internal
 
+* ⬆ Bump pygments from 2.19.2 to 2.20.0. PR [#196](https://github.com/tiangolo/tiangolo.com/pull/196) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump urllib3 from 2.6.3 to 2.7.0. PR [#200](https://github.com/tiangolo/tiangolo.com/pull/200) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add pre-commit with prek, CI for it, generate README hook. PR [#191](https://github.com/tiangolo/tiangolo.com/pull/191) by [@tiangolo](https://github.com/tiangolo).
 * ➕ Migrate to uv. PR [#181](https://github.com/tiangolo/tiangolo.com/pull/181) by [@tiangolo](https://github.com/tiangolo).
