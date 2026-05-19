@@ -21,6 +21,7 @@
 
 ### Internal
 
+* ⬆ Bump cairosvg from 2.8.2 to 2.9.0. PR [#192](https://github.com/tiangolo/tiangolo.com/pull/192) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump requests from 2.32.5 to 2.33.0. PR [#194](https://github.com/tiangolo/tiangolo.com/pull/194) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pygments from 2.19.2 to 2.20.0. PR [#196](https://github.com/tiangolo/tiangolo.com/pull/196) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump urllib3 from 2.6.3 to 2.7.0. PR [#200](https://github.com/tiangolo/tiangolo.com/pull/200) by [@dependabot[bot]](https://github.com/apps/dependabot).
