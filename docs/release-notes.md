@@ -21,6 +21,7 @@
 
 ### Internal
 
+* 👷 Update Dependabot. PR [#202](https://github.com/tiangolo/tiangolo.com/pull/202) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump pyjwt from 2.11.0 to 2.12.0. PR [#193](https://github.com/tiangolo/tiangolo.com/pull/193) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump cairosvg from 2.8.2 to 2.9.0. PR [#192](https://github.com/tiangolo/tiangolo.com/pull/192) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump requests from 2.32.5 to 2.33.0. PR [#194](https://github.com/tiangolo/tiangolo.com/pull/194) by [@dependabot[bot]](https://github.com/apps/dependabot).
