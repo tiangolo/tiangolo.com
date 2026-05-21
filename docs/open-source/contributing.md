@@ -50,6 +50,12 @@ You can run the tests running `pytest` manually, or running the script:
 $ bash scripts/test.sh
 ```
 
+## Dependencies
+
+Note that PRs from non-team members are not allowed to modify `pyproject.toml` or `uv.lock`, to prevent supply chain risk.
+
+If you would like to add a new dependency, create a new Discussion to explain why.
+
 ## Docs
 
 ### Docs Live
