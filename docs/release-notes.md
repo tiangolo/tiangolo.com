@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 📝 Add general docs about contributing to the Python projects. PR [#206](https://github.com/tiangolo/tiangolo.com/pull/206) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Migrate docs to Zensical. PR [#201](https://github.com/tiangolo/tiangolo.com/pull/201) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Move library skills docs to their own domain. PR [#199](https://github.com/tiangolo/tiangolo.com/pull/199) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update link syntax to minimal Markdown. PR [#190](https://github.com/tiangolo/tiangolo.com/pull/190) by [@tiangolo](https://github.com/tiangolo).
