@@ -63,6 +63,7 @@ nav:
     - projects.md
     - open-source/contributing.md
     - github-fastapi.md
+    - open-source/management-tasks.md
   - "":
     - ideas/index.md
     - ideas/library-agent-skills.md
