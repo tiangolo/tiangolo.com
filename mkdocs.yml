@@ -61,6 +61,7 @@ nav:
   - "":
     - open-source/index.md
     - projects.md
+    - open-source/help.md
     - open-source/contributing.md
     - github-fastapi.md
     - open-source/management-tasks.md

@@ -4,7 +4,7 @@ If you want to contribute to one of the open source projects you can follow thes
 
 ## Help
 
-First, check the docs for the specific project. In many cases, you can help in different ways, for example answering questions from others.
+First, check the docs for the specific project and the section about [help](help.md) here. In many cases, you can help in different ways, for example answering questions from others.
 
 ## Start with a Discussion
 

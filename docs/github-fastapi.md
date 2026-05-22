@@ -13,7 +13,7 @@ I normally give the final review to each PR before merging them. I make the fina
 
 There's a team of people that help manage and maintain the repositories. 😎
 
-They have different levels of permissions and specific instructions.
+They have different levels of permissions and specific instructions with [management tasks](./open-source/management-tasks.md).
 
 Some of the tasks they can perform include:
 
