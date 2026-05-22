@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 📝 Add section about help. PR [#208](https://github.com/tiangolo/tiangolo.com/pull/208) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add docs about management tasks and tweak members. PR [#207](https://github.com/tiangolo/tiangolo.com/pull/207) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add general docs about contributing to the Python projects. PR [#206](https://github.com/tiangolo/tiangolo.com/pull/206) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Migrate docs to Zensical. PR [#201](https://github.com/tiangolo/tiangolo.com/pull/201) by [@tiangolo](https://github.com/tiangolo).
