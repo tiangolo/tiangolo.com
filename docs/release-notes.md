@@ -6,6 +6,15 @@
 
 ### Docs
 
+* 📝 Add section about help. PR [#208](https://github.com/tiangolo/tiangolo.com/pull/208) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Add docs about management tasks and tweak members. PR [#207](https://github.com/tiangolo/tiangolo.com/pull/207) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Add general docs about contributing to the Python projects. PR [#206](https://github.com/tiangolo/tiangolo.com/pull/206) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Migrate docs to Zensical. PR [#201](https://github.com/tiangolo/tiangolo.com/pull/201) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Move library skills docs to their own domain. PR [#199](https://github.com/tiangolo/tiangolo.com/pull/199) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Update link syntax to minimal Markdown. PR [#190](https://github.com/tiangolo/tiangolo.com/pull/190) by [@tiangolo](https://github.com/tiangolo).
+* 🔨 Handle external links `target=_blank` and CSS automatically in JS and CSS. PR [#189](https://github.com/tiangolo/tiangolo.com/pull/189) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Add Library Agent Skills docs. PR [#180](https://github.com/tiangolo/tiangolo.com/pull/180) by [@tiangolo](https://github.com/tiangolo).
+* 💅 Update CSS to explicitly use emoji font. PR [#173](https://github.com/tiangolo/tiangolo.com/pull/173) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update projects data. PR [#60](https://github.com/tiangolo/tiangolo.com/pull/60) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * 📝 Fix rendering project links. PR [#46](https://github.com/tiangolo/tiangolo.com/pull/46) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Fix README link. PR [#41](https://github.com/tiangolo/tiangolo.com/pull/41) by [@tiangolo](https://github.com/tiangolo).
@@ -15,6 +24,32 @@
 
 ### Internal
 
+* ⬆ Bump idna from 3.11 to 3.15. PR [#205](https://github.com/tiangolo/tiangolo.com/pull/205) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump the python-packages group across 1 directory with 11 updates. PR [#211](https://github.com/tiangolo/tiangolo.com/pull/211) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump the github-actions group across 1 directory with 8 updates. PR [#212](https://github.com/tiangolo/tiangolo.com/pull/212) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Remove GitHub config files now in a central repo. PR [#209](https://github.com/tiangolo/tiangolo.com/pull/209) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Update Dependabot. PR [#202](https://github.com/tiangolo/tiangolo.com/pull/202) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Bump pyjwt from 2.11.0 to 2.12.0. PR [#193](https://github.com/tiangolo/tiangolo.com/pull/193) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump cairosvg from 2.8.2 to 2.9.0. PR [#192](https://github.com/tiangolo/tiangolo.com/pull/192) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump requests from 2.32.5 to 2.33.0. PR [#194](https://github.com/tiangolo/tiangolo.com/pull/194) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pygments from 2.19.2 to 2.20.0. PR [#196](https://github.com/tiangolo/tiangolo.com/pull/196) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump urllib3 from 2.6.3 to 2.7.0. PR [#200](https://github.com/tiangolo/tiangolo.com/pull/200) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Add pre-commit with prek, CI for it, generate README hook. PR [#191](https://github.com/tiangolo/tiangolo.com/pull/191) by [@tiangolo](https://github.com/tiangolo).
+* ➕ Migrate to uv. PR [#181](https://github.com/tiangolo/tiangolo.com/pull/181) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Upgrade actions/checkout from v5 to v6. PR [#171](https://github.com/tiangolo/tiangolo.com/pull/171) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Upgrade `latest-changes` GitHub Action and pin `actions/checkout@v5`. PR [#170](https://github.com/tiangolo/tiangolo.com/pull/170) by [@tiangolo](https://github.com/tiangolo).
+* 💄 Use font Fira Code to fix display of Rich panels in docs in Windows. PR [#169](https://github.com/tiangolo/tiangolo.com/pull/169) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Upgrade Material for MkDocs and remove insiders. PR [#167](https://github.com/tiangolo/tiangolo.com/pull/167) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Bump typer from 0.16.0 to 0.20.0. PR [#158](https://github.com/tiangolo/tiangolo.com/pull/158) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/download-artifact from 5 to 6. PR [#159](https://github.com/tiangolo/tiangolo.com/pull/159) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump tiangolo/latest-changes from 0.3.2 to 0.4.0. PR [#136](https://github.com/tiangolo/tiangolo.com/pull/136) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/checkout from 4 to 5. PR [#139](https://github.com/tiangolo/tiangolo.com/pull/139) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/labeler from 5 to 6. PR [#145](https://github.com/tiangolo/tiangolo.com/pull/145) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/setup-python from 5 to 6. PR [#146](https://github.com/tiangolo/tiangolo.com/pull/146) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-macros-plugin from 1.3.7 to 1.4.1. PR [#160](https://github.com/tiangolo/tiangolo.com/pull/160) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pillow from 11.3.0 to 12.0.0. PR [#156](https://github.com/tiangolo/tiangolo.com/pull/156) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.6.15 to 9.6.23. PR [#161](https://github.com/tiangolo/tiangolo.com/pull/161) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update docs previews comment, single comment, add failure status. PR [#154](https://github.com/tiangolo/tiangolo.com/pull/154) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.6.14 to 9.6.15. PR [#134](https://github.com/tiangolo/tiangolo.com/pull/134) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.2.1 to 11.3.0. PR [#133](https://github.com/tiangolo/tiangolo.com/pull/133) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update projects data. PR [#132](https://github.com/tiangolo/tiangolo.com/pull/132) by [@github-actions[bot]](https://github.com/apps/github-actions).

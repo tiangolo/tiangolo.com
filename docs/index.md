@@ -16,7 +16,7 @@ article.md-content__inner { text-align: center; margin: 0 auto 5rem; max-width: 
 
 <div style="font-size: 2em;" markdown="1">
 
-Hey! I'm **<a href="https://twitter.com/tiangolo" target="_blank">@tiangolo</a> (Sebastián Ramírez)**. 👋
+Hey! I'm **[@tiangolo](https://twitter.com/tiangolo) (Sebastián Ramírez)**. 👋
 
 </div>
 
@@ -30,7 +30,7 @@ I'm a software developer from Colombia. 🇨🇴
 
 I currently live in Berlin, Germany. 🇩🇪
 
-I created **<a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a>**, **<a href="https://typer.tiangolo.com" target="_blank">Typer</a>**, **<a href="https://sqlmodel.tiangolo.com" target="_blank">SQLModel</a>**, **<a href="https://asyncer.tiangolo.com" target="_blank">Asyncer</a>**, and a bunch of other open source tools. 🚀
+I created **[FastAPI](https://fastapi.tiangolo.com)**, **[Typer](https://typer.tiangolo.com)**, **[SQLModel](https://sqlmodel.tiangolo.com)**, **[Asyncer](https://asyncer.tiangolo.com)**, and a bunch of other open source tools. 🚀
 
 I have been building APIs and tools for Machine Learning and data systems, in the Americas, the Middle East, and Europe, with different teams and organizations. 🌎
 

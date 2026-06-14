@@ -1,7 +1,11 @@
 members:
 - login: tiangolo
-- login: Kludex
-- login: alejsdev
 - login: svlandeg
-- login: patrick91
 - login: YuriiMotov
+- login: alejsdev
+- login: Kludex
+- login: patrick91
+- login: savannahostrowski
+- login: DoctorJohn
+- login: buurro
+- login: malvex

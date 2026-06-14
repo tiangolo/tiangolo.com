@@ -1,10 +1,11 @@
-INHERIT: ./mkdocs.maybe-insiders.yml
+INHERIT: ./mkdocs.env.yml
 site_name: tiangolo's boring personal website
 site_description: Stuff by tiangolo
 site_url: https://tiangolo.com/
 repo_name: tiangolo/tiangolo.com
 repo_url: https://github.com/tiangolo/tiangolo.com
 theme:
+  variant: classic
   name: material
   custom_dir: docs/overrides
   palette:
@@ -50,28 +51,31 @@ theme:
   - toc.follow
 
   icon:
-    repo: fontawesome/brands/github-alt
+    repo: octicons/mark-github-24
   logo: img/favicon.png
   favicon: img/favicon.png
   language: en
-plugins:
-  # Material for MkDocs
-  search:
-  social:
-  # Other plugins
-  macros:
-    include_yaml:
-    - projects: data/projects.yml
-    - members: data/members.yml
 
 nav:
   - index.md
-  - Open Source:
+  - "":
     - open-source/index.md
     - projects.md
+    - open-source/help.md
+    - open-source/contributing.md
     - github-fastapi.md
+    - open-source/management-tasks.md
+  - "":
+    - ideas/index.md
+    - ideas/library-agent-skills.md
 
 markdown_extensions:
+  # Material for MkDocs
+  material.extensions.preview:
+    targets:
+      include:
+        - "*"
+  zensical.extensions.macros:
   # Python Markdown
   abbr:
   attr_list:
@@ -99,15 +103,6 @@ markdown_extensions:
 
   # pymdownx blocks
   pymdownx.blocks.admonition:
-    types:
-    - note
-    - attention
-    - caution
-    - danger
-    - error
-    - tip
-    - hint
-    - warning
   pymdownx.blocks.details:
   pymdownx.blocks.tab:
     alternate_style: True
@@ -117,20 +112,16 @@ markdown_extensions:
 
 extra:
   social:
-  - icon: fontawesome/brands/github-alt
-    link: https://github.com/tiangolo
-  - icon: fontawesome/brands/twitter
-    link: https://twitter.com/tiangolo
-  - icon: fontawesome/brands/linkedin
-    link: https://www.linkedin.com/in/tiangolo
-  - icon: fontawesome/brands/dev
-    link: https://dev.to/tiangolo
-  - icon: fontawesome/brands/medium
-    link: https://medium.com/@tiangolo
-  - icon: fontawesome/solid/globe
-    link: https://tiangolo.com
-  - icon: fontawesome/solid/envelope
-    link: mailto:tiangolo@gmail.com
+    - icon: octicons/mark-github-24
+      link: https://github.com/tiangolo
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/tiangolo
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/tiangolo.com
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/tiangolo
+    - icon: fontawesome/solid/envelope
+      link: mailto:tiangolo@gmail.com
 
 extra_css:
   - css/termynal.css
@@ -140,5 +131,5 @@ extra_javascript:
   - js/termynal.js
   - js/custom.js
 
-hooks:
-  - scripts/mkdocs_hooks.py
+validation:
+  unresolved_references: false

@@ -20,31 +20,32 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.2
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
-      - uses: actions/cache@v4
-        id: cache
+          python-version-file: ".python-version"
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v8.1.0
         with:
-          path: ${{ env.pythonLocation }}
-          key: ${{ runner.os }}-python-github-actions-${{ env.pythonLocation }}-${{ hashFiles('requirements-github-actions.txt') }}-v01
+          enable-cache: true
+          cache-dependency-glob: |
+            pyproject.toml
+            uv.lock
       - name: Install GitHub Actions dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: pip install -r requirements-github-actions.txt
+        run: uv sync --locked --no-dev --group github-actions
       - name: Deploy Docs Status Pending
-        run: python ./scripts/deploy_docs_status.py
+        run: uv run ./scripts/deploy_docs_status.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
           RUN_ID: ${{ github.run_id }}
-
+          STATE: "pending"
       - name: Clean site
         run: |
           rm -rf ./site
           mkdir ./site
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: ./site/
           pattern: docs-site
@@ -58,16 +59,24 @@ jobs:
         env:
           PROJECT_NAME: tiangolo
           BRANCH: ${{ ( github.event.workflow_run.head_repository.full_name == github.repository && github.event.workflow_run.head_branch == 'master' && 'main' ) || ( github.event.workflow_run.head_sha ) }}
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy ./site --project-name=${{ env.PROJECT_NAME }} --branch=${{ env.BRANCH }}
+      - name: Deploy Docs Status Error
+        if: failure()
+        run: uv run ./scripts/deploy_docs_status.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_ID: ${{ github.run_id }}
+          STATE: "error"
       - name: Comment Deploy
-        run: python ./scripts/deploy_docs_status.py
+        run: uv run ./scripts/deploy_docs_status.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOY_URL: ${{ steps.deploy.outputs.deployment-url }}
           COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
           RUN_ID: ${{ github.run_id }}
-          IS_DONE: "true"
+          STATE: "success"
