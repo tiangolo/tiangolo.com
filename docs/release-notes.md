@@ -24,6 +24,7 @@
 
 ### Internal
 
+* ⬆ Bump idna from 3.11 to 3.15. PR [#205](https://github.com/tiangolo/tiangolo.com/pull/205) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the python-packages group across 1 directory with 11 updates. PR [#211](https://github.com/tiangolo/tiangolo.com/pull/211) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group across 1 directory with 8 updates. PR [#212](https://github.com/tiangolo/tiangolo.com/pull/212) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Remove GitHub config files now in a central repo. PR [#209](https://github.com/tiangolo/tiangolo.com/pull/209) by [@tiangolo](https://github.com/tiangolo).
