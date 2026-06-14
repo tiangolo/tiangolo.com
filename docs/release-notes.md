@@ -24,6 +24,7 @@
 
 ### Internal
 
+* ⬆ Bump the github-actions group across 1 directory with 8 updates. PR [#212](https://github.com/tiangolo/tiangolo.com/pull/212) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Remove GitHub config files now in a central repo. PR [#209](https://github.com/tiangolo/tiangolo.com/pull/209) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update Dependabot. PR [#202](https://github.com/tiangolo/tiangolo.com/pull/202) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump pyjwt from 2.11.0 to 2.12.0. PR [#193](https://github.com/tiangolo/tiangolo.com/pull/193) by [@dependabot[bot]](https://github.com/apps/dependabot).
