@@ -24,6 +24,7 @@
 
 ### Internal
 
+* ⬆️ Group Dependabot updates. PR [#219](https://github.com/tiangolo/tiangolo.com/pull/219) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update Dependabot ecosystem coverage. PR [#218](https://github.com/tiangolo/tiangolo.com/pull/218) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update projects data. PR [#137](https://github.com/tiangolo/tiangolo.com/pull/137) by [@github-actions[bot]](https://github.com/apps/github-actions).
 * ⬆ Bump idna from 3.11 to 3.15. PR [#205](https://github.com/tiangolo/tiangolo.com/pull/205) by [@dependabot[bot]](https://github.com/apps/dependabot).
