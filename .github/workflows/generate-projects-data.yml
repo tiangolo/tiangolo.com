@@ -10,6 +10,8 @@ on:
         default: 'false'
 jobs:
   generate-projects-data:
+    permissions:
+      contents: read
     if: github.repository_owner == 'tiangolo'
     runs-on: ubuntu-latest
     steps:
@@ -34,5 +36,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           github_user: tiangolo
           github_org: fastapi
-    permissions:
-      contents: read
