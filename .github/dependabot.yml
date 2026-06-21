@@ -42,6 +42,10 @@ updates:
       default-days: 7
     commit-message:
       prefix: ⬆
+    groups:
+      docker-images:
+        patterns:
+          - "*"
   - package-ecosystem: "pre-commit"
     directory: "/"
     schedule:
@@ -50,3 +54,7 @@ updates:
       default-days: 7
     commit-message:
       prefix: ⬆
+    groups:
+      pre-commit:
+        patterns:
+          - "*"
