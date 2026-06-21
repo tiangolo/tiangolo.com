@@ -34,3 +34,19 @@ updates:
       python-packages:
         patterns:
           - "*"
+  - package-ecosystem: "docker"
+    directory: "/.github/actions/generate-projects-data"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: ⬆
+  - package-ecosystem: "pre-commit"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: ⬆
