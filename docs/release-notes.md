@@ -24,6 +24,7 @@
 
 ### Internal
 
+* 👷 Simplify pull request workflow triggers. PR [#223](https://github.com/tiangolo/tiangolo.com/pull/223) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager to 0.7.1. PR [#222](https://github.com/tiangolo/tiangolo.com/pull/222) by [@tiangolo](https://github.com/tiangolo).
 * 🔒️ Add zizmor workflow security checks. PR [#220](https://github.com/tiangolo/tiangolo.com/pull/220) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Group Dependabot updates. PR [#219](https://github.com/tiangolo/tiangolo.com/pull/219) by [@tiangolo](https://github.com/tiangolo).
