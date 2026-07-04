@@ -24,6 +24,7 @@
 
 ### Internal
 
+* 👷 Fix latest-changes checkout target. PR [#227](https://github.com/tiangolo/tiangolo.com/pull/227) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update issue-manager to 0.8.1. PR [#226](https://github.com/tiangolo/tiangolo.com/pull/226) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update latest-changes to 0.6.1. PR [#225](https://github.com/tiangolo/tiangolo.com/pull/225) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Simplify pull request workflow triggers. PR [#223](https://github.com/tiangolo/tiangolo.com/pull/223) by [@tiangolo](https://github.com/tiangolo).
