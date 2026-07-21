@@ -29,38 +29,6 @@ You can follow [me (Sebastián Ramírez / `tiangolo`)](https://tiangolo.com), th
 * [@tiangolo.com on **Bluesky**](https://bsky.app/profile/tiangolo.com)
 * [@tiangolo on **LinkedIn**](https://www.linkedin.com/in/tiangolo/).
 
-## Help Others with Questions in GitHub
-
-You can try and help others with their questions in the GitHub Discussions section for each repo.
-
-Just remember, the most important point is: try to be kind. 🤗
-
-### Understand the Question
-
-* Check if you can understand what is the **purpose** and use case of the person asking.
-
-* Then check if the question is **clear**.
-
-* In many cases the question asked is about an imaginary solution from the user, but there might be a **better** one. If you can understand the problem and use case better, you might be able to suggest a better **alternative solution**.
-
-* If you can't understand the question, ask for more **details**.
-
-### Reproduce the Problem
-
-For most of the cases and most of the questions there's something related to the person's **original code**.
-
-In many cases they will only copy a fragment of the code, but that's not enough to **reproduce the problem**.
-
-* You can ask them to provide a [minimal, reproducible, example](https://stackoverflow.com/help/minimal-reproducible-example), that you can **copy-paste** and run locally to see the same error or behavior they are seeing, or to understand their use case better.
-
-* If you are feeling too generous, you can try to **create an example** like that yourself, just based on the description of the problem. Just keep in mind that this might take a lot of time and it might be better to ask them to clarify the problem first.
-
-### Suggest Solutions
-
-* After being able to understand the question, you can give them a possible **answer**.
-
-* In many cases, it's better to understand their **underlying problem or use case**, because there might be a better way to solve it than what they are trying to do.
-
 ## Ask Questions
 
 You can create a new question in the GitHub repository, in the GitHub Discussions section, for example to:
