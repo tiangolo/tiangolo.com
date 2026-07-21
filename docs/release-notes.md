@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 📝 Add docs about environment variables and virtual environments. PR [#235](https://github.com/tiangolo/tiangolo.com/pull/235) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update help docs. PR [#234](https://github.com/tiangolo/tiangolo.com/pull/234) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update help docs. PR [#233](https://github.com/tiangolo/tiangolo.com/pull/233) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add section about help. PR [#208](https://github.com/tiangolo/tiangolo.com/pull/208) by [@tiangolo](https://github.com/tiangolo).
