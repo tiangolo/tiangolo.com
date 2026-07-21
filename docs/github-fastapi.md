@@ -37,4 +37,4 @@ This is the current list of team members. 😎
 
 </div>
 
-Additional to them, there's a large community of people helping each other and getting involved in the projects in different ways.
+Additional to them, there's a large community of people getting involved in the projects in different ways.
