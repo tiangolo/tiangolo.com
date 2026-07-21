@@ -68,6 +68,10 @@ nav:
   - "":
     - ideas/index.md
     - ideas/library-agent-skills.md
+  - "":
+    - guides/index.md
+    - guides/environment-variables.md
+    - guides/virtual-environments.md
 
 markdown_extensions:
   # Material for MkDocs
