@@ -6,6 +6,7 @@
 
 ### Docs
 
+* 🐛 Prevent Termynal controls from scrolling. PR [#236](https://github.com/tiangolo/tiangolo.com/pull/236) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add docs about environment variables and virtual environments. PR [#235](https://github.com/tiangolo/tiangolo.com/pull/235) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update help docs. PR [#234](https://github.com/tiangolo/tiangolo.com/pull/234) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update help docs. PR [#233](https://github.com/tiangolo/tiangolo.com/pull/233) by [@tiangolo](https://github.com/tiangolo).
