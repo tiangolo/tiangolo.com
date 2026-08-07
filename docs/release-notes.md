@@ -29,6 +29,7 @@
 
 ### Internal
 
+* 👷 Remove Zensical docs cache. PR [#243](https://github.com/tiangolo/tiangolo.com/pull/243) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Remove the old Latest Changes workflow. PR [#242](https://github.com/tiangolo/tiangolo.com/pull/242) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade latest-changes to 0.7.1. PR [#237](https://github.com/tiangolo/tiangolo.com/pull/237) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Fix latest-changes checkout target. PR [#227](https://github.com/tiangolo/tiangolo.com/pull/227) by [@tiangolo](https://github.com/tiangolo).
