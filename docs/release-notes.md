@@ -29,6 +29,7 @@
 
 ### Internal
 
+* 👷 Use PR Push commit identity. PR [#248](https://github.com/tiangolo/tiangolo.com/pull/248) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use PR Push for pre-commit. PR [#245](https://github.com/tiangolo/tiangolo.com/pull/245) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Remove Zensical docs cache. PR [#243](https://github.com/tiangolo/tiangolo.com/pull/243) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Remove the old Latest Changes workflow. PR [#242](https://github.com/tiangolo/tiangolo.com/pull/242) by [@tiangolo](https://github.com/tiangolo).
