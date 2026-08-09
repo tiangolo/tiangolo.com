@@ -29,6 +29,7 @@
 
 ### Internal
 
+* ⬆ Bump pydantic-settings from 2.14.1 to 2.14.2. PR [#217](https://github.com/tiangolo/tiangolo.com/pull/217) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump cryptography from 46.0.5 to 50.0.0. PR [#241](https://github.com/tiangolo/tiangolo.com/pull/241) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the python-packages group across 1 directory with 8 updates. PR [#240](https://github.com/tiangolo/tiangolo.com/pull/240) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pymdown-extensions from 10.21.3 to 11.0.1. PR [#246](https://github.com/tiangolo/tiangolo.com/pull/246) by [@dependabot[bot]](https://github.com/apps/dependabot).
