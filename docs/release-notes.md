@@ -29,6 +29,7 @@
 
 ### Internal
 
+* 🔧 Set Dependabot schedule interval to "monthly". PR [#250](https://github.com/tiangolo/tiangolo.com/pull/250) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump pyjwt from 2.12.0 to 2.13.0. PR [#215](https://github.com/tiangolo/tiangolo.com/pull/215) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pydantic-settings from 2.14.1 to 2.14.2. PR [#217](https://github.com/tiangolo/tiangolo.com/pull/217) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump cryptography from 46.0.5 to 50.0.0. PR [#241](https://github.com/tiangolo/tiangolo.com/pull/241) by [@dependabot[bot]](https://github.com/apps/dependabot).
