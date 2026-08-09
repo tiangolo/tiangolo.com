@@ -29,6 +29,7 @@
 
 ### Internal
 
+* ⬆ Bump pymdown-extensions from 10.21.3 to 11.0.1. PR [#246](https://github.com/tiangolo/tiangolo.com/pull/246) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group across 1 directory with 6 updates. PR [#244](https://github.com/tiangolo/tiangolo.com/pull/244) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Use GitHub CLI for Git authentication. PR [#249](https://github.com/tiangolo/tiangolo.com/pull/249) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use PR Push commit identity. PR [#248](https://github.com/tiangolo/tiangolo.com/pull/248) by [@tiangolo](https://github.com/tiangolo).
