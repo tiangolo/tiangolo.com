@@ -29,6 +29,7 @@
 
 ### Internal
 
+* ⬆ Bump pyjwt from 2.13.0 to 2.15.0. PR [#260](https://github.com/tiangolo/tiangolo.com/pull/260) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Migrate automatic labels to Latest Changes. PR [#253](https://github.com/tiangolo/tiangolo.com/pull/253) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Remove legacy label check. PR [#252](https://github.com/tiangolo/tiangolo.com/pull/252) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Set Dependabot schedule interval to "monthly". PR [#250](https://github.com/tiangolo/tiangolo.com/pull/250) by [@tiangolo](https://github.com/tiangolo).
