@@ -30,7 +30,7 @@ workflows:
         - 'tiangolo/pr-push@0.0.1'
     '.github/workflows/zizmor.yml':
         - 'actions/checkout@v7.0.1'
-        - 'zizmorcore/zizmor-action@v0.6.2'
+        - 'zizmorcore/zizmor-action@v0.8.1'
 dependencies:
     'actions/checkout@v7.0.1':
         ref: 'v7.0.1'
@@ -67,9 +67,9 @@ dependencies:
         commit: 'sha1-7b450fff21473bca461d4b92ce414b9d0420d706'
         owner_id: 1588572
         repo_id: 265601040
-    'github/codeql-action@7188fc363630916deb702c7fdcf4e481b751f97a':
-        ref: 'v4.37.1'
-        commit: 'sha1-7188fc363630916deb702c7fdcf4e481b751f97a'
+    'github/codeql-action@9b3254085494b55a0f7c4c2b3d2d52cc712ce370':
+        ref: 'v4.39.1'
+        commit: 'sha1-9b3254085494b55a0f7c4c2b3d2d52cc712ce370'
         owner_id: 9919
         repo_id: 259445878
     'mxschmitt/action-tmate@v3.24':
@@ -97,10 +97,10 @@ dependencies:
         commit: 'sha1-ff4e51a433de4c22bbf90597e069e8247b9203d2'
         owner_id: 1326112
         repo_id: 1327025554
-    'zizmorcore/zizmor-action@v0.6.2':
-        ref: 'v0.6.2'
-        commit: 'sha1-3dc1ecc9bcb9e94e9b2c709687979e1298497054'
+    'zizmorcore/zizmor-action@v0.8.1':
+        ref: 'v0.8.1'
+        commit: 'sha1-45d7276c9ca790aabd705e31ca99c6185c3e76dd'
         owner_id: 210636713
         repo_id: 985558803
         uses:
-            - 'github/codeql-action@7188fc363630916deb702c7fdcf4e481b751f97a'
+            - 'github/codeql-action@9b3254085494b55a0f7c4c2b3d2d52cc712ce370'
