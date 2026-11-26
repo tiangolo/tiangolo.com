@@ -35,11 +35,11 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Set up Python
-        uses: actions/setup-python@v7.0.0
+        uses: actions/setup-python@v7.1.0
         with:
           python-version-file: ".python-version"
       - name: Setup uv
-        uses: astral-sh/setup-uv@v10.0.1
+        uses: astral-sh/setup-uv@v10.4.0
         with:
           version: "latest-known"
           cache-dependency-glob: |
@@ -62,7 +62,7 @@ jobs:
       - name: Get PR Push token
         id: pr-push
         if: env.CAN_PUSH == 'true' && steps.changes.outputs.changed == 'true'
-        uses: tiangolo/pr-push@0.0.1
+        uses: tiangolo/pr-push@0.0.4
       - name: Commit and push changes
         if: env.CAN_PUSH == 'true' && steps.changes.outputs.changed == 'true'
         env:
@@ -74,7 +74,7 @@ jobs:
           git add -A
           git commit -m "🎨 Auto format"
           git push
-      - uses: pre-commit-ci/lite-action@v1.1.0
+      - uses: pre-commit-ci/lite-action@v1.2.0
         if: env.CAN_PUSH == 'false'
         with:
           msg: 🎨 Auto format
@@ -93,6 +93,6 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
       - name: Decide whether the needed jobs succeeded or failed
-        uses: re-actors/alls-green@v1.2.2
+        uses: re-actors/alls-green@v1.3.0
         with:
           jobs: ${{ toJSON(needs) }}
