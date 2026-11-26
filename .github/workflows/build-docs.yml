@@ -19,7 +19,7 @@ jobs:
         with:
           persist-credentials: false
       # For pull requests it's not necessary to checkout the code but for the main branch it is
-      - uses: dorny/paths-filter@v4.0.2
+      - uses: dorny/paths-filter@v4.0.3
         id: filter
         with:
           filters: |
@@ -50,11 +50,11 @@ jobs:
         with:
           persist-credentials: false
       - name: Set up Python
-        uses: actions/setup-python@v7.0.0
+        uses: actions/setup-python@v7.1.0
         with:
           python-version-file: ".python-version"
       - name: Setup uv
-        uses: astral-sh/setup-uv@v10.0.1
+        uses: astral-sh/setup-uv@v10.4.0
         with:
           version: "latest-known"
           enable-cache: true
@@ -65,7 +65,7 @@ jobs:
         run: uv sync --locked --no-dev --group docs
       - name: Build Docs
         run: uv run ./scripts/docs.py build
-      - uses: actions/upload-artifact@v7.0.1
+      - uses: actions/upload-artifact@v7.0.2
         with:
           name: docs-site
           path: ./site/**
@@ -78,7 +78,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Decide whether the needed jobs succeeded or failed
-        uses: re-actors/alls-green@v1.2.2
+        uses: re-actors/alls-green@v1.3.0
         with:
           jobs: ${{ toJSON(needs) }}
           allowed-skips: build-docs
