@@ -31,7 +31,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled == 'true' }}
         with:
           limit-access-to-actor: true
-      - uses: ./.github/actions/generate-projects-data
+      - uses: $/.github/actions/generate-projects-data
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           github_user: tiangolo
