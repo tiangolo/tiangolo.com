@@ -10,7 +10,7 @@ dev = [
     { include-group = "github-actions" },
     "pre-commit>=4.6.1,<5.0.0",
     "prek>=0.4.11",
-    "zizmor>=1.28.0",
+    "zizmor>=1.32.0",
 ]
 docs = [
     "cairosvg==2.9.0",
